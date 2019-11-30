@@ -10,15 +10,22 @@ const Items = require("../models/Items")
 // @route   POST user/add
 // @desc    Adding item(s) 
 // @access  Public
-
-router.post("/one", (req,res)=>{
-    const {item, money} = req.body
+let arr = [ { item: 'Arul', money: '100' }, { item: 'Samantha', money: '500' }, { item: 'Boby', money: '10' }]
+router.post("/one", (arr,res)=>{
+    const {item, money} =req.body
+    console.log(req.body)
         Items.findOne({ item })
-        .then( item =>{
+        .then( () =>{
             if(true){
-                const newEntry = new Items({item,money})
+                const newEntry = new Items({
+                    item,
+                    money
+                })
                 newEntry.save()
-                .then(data =>console.log('Successfully included'))
+                .then(data =>{
+                    console.log('Successfully included')
+                    console.log(data)
+                })
                 .catch(err => console.log(err))
             }
         })
