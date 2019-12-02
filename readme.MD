@@ -6,8 +6,8 @@ NitiAssisit is a personal financial manager, that helps the user to manage their
 ![Layout1](https://github.com/ArvinthC3000/nitiassist-fintech/blob/master/src/img/Image%202.png)
 
 ## Author
-Arvinth C    
-[LinkedIn](https://www.linkedin.com/in/arvinth-chandrasekharan-64236a79)     
+### Arvinth C    
+[LinkedIn](https://www.linkedin.com/in/arvinth-chandrasekharan-64236a79), 
 email: arvinthc97@gmail.com
 
 ## References
