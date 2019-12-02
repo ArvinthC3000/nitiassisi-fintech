@@ -9,6 +9,6 @@ NitiAssisit is a personal financial manager, that helps the user to manage their
 * [ReactJS](https://reactjs.org/docs/getting-started.html)
 * [NodeJS](https://nodejs.org/en/docs/)
 * [PassportJS](http://www.passportjs.org/docs/authenticate/)
-* [Express]
+* Express
 * [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 * [Axios](https://www.npmjs.com/package/axios)
